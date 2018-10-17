@@ -1,4 +1,4 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 void printreverse(int n){
      if(n<10) cout <<n;
@@ -8,10 +8,10 @@ void printreverse(int n){
           }
 }
 int main(){
-cout<<"Enter the numbers which you want return "<<endl;
 int n;
+cout<<"Enter the numbers which you want to be reversed"<<endl;
 cin>>n;
-cout<<"The reverse of the numbers is "<<endl;
-printreverse n;
+cout<<"The reversed numbers are"<<endl;
+printreverse(n);
 return 0;
 }
